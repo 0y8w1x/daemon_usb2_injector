@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/denji/Desktop/daemon_type_c_USB2_injector/USB2_injector/USB2_injector.kicad_sch</source>
+    <date>So 25 Feb 2024 16:26:54 CET</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB2_injector.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>~</value>
+      <footprint>the_backrooms:CX60-24S-UNIT</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/185/CX60_24S_UNIT_CL0480_0465_0_00_2DDrawing_D166698_e-1611272.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No.">CX60-24S-UNIT</field>
+      </fields>
+      <libsource lib="the_backrooms" part="CX60-24S-UNIT" description=""/>
+      <property name="Mfr. No." value="CX60-24S-UNIT"/>
+      <property name="Package/Case" value=""/>
+      <property name="Description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB2_injector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bea3eaa-b531-4ebb-afdc-cd2fb70c6575</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>CX90MWD2G-24P</value>
+      <footprint>the_backrooms:CX90MWD2G-24P</footprint>
+      <datasheet>https://www.hirose.com/en/product/document?clcode=CL0480-0770-0-00&amp;productname=CX90MWD2G-24P&amp;series=CX&amp;documenttype=2DDrawing&amp;lang=en&amp;documentid=CX90MWD2G-24P_2D_4800609000_Eng</datasheet>
+      <fields>
+        <field name="Mfr. No.">CX90MWD2G-24P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CX90MWD2G-24P" description="USB Connectors USB Type C Receptacl - Waterproof (IPX8)"/>
+      <property name="Mfr. No." value="CX90MWD2G-24P"/>
+      <property name="Package/Case" value=""/>
+      <property name="Description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB2_injector.kicad_sch"/>
+      <property name="ki_description" value="USB Connectors USB Type C Receptacl - Waterproof (IPX8)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4c1d803-5ec0-4b62-a176-7599966f22d4</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>503480-0540</value>
+      <footprint>5034800540</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/5034800540_sd.pdf</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">503480-0540</field>
+        <field name="Mfr. No.">503480-0540</field>
+        <field name="Mouser Part Number">538-503480-0540</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/503480-0540?qs=LBbezbu20sgPzcVKHN0rmQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="503480-0540" description="Connector FFC/FPC SKT 5 Position 0.5mm Solder Right Angle Surface Mount T/R"/>
+      <property name="Height" value="1.2"/>
+      <property name="Manufacturer_Name" value="Molex"/>
+      <property name="Manufacturer_Part_Number" value="503480-0540"/>
+      <property name="Mouser Part Number" value="538-503480-0540"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Molex/503480-0540?qs=LBbezbu20sgPzcVKHN0rmQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mfr. No." value="503480-0540"/>
+      <property name="Package/Case" value=""/>
+      <property name="Description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB2_injector.kicad_sch"/>
+      <property name="ki_description" value="Connector FFC/FPC SKT 5 Position 0.5mm Solder Right Angle Surface Mount T/R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d6a2cdf-02d1-407d-9620-feae0ce8a770</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SamacSys_Parts" part="503480-0540">
+      <description>Connector FFC/FPC SKT 5 Position 0.5mm Solder Right Angle Surface Mount T/R</description>
+      <docs>https://www.molex.com/pdm_docs/sd/5034800540_sd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">503480-0540</field>
+        <field name="Footprint">5034800540</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/5034800540_sd.pdf</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">503480-0540</field>
+        <field name="Mouser Part Number">538-503480-0540</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/503480-0540?qs=LBbezbu20sgPzcVKHN0rmQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="CX90MWD2G-24P">
+      <description>USB Connectors USB Type C Receptacl - Waterproof (IPX8)</description>
+      <docs>https://www.hirose.com/en/product/document?clcode=CL0480-0770-0-00&amp;productname=CX90MWD2G-24P&amp;series=CX&amp;documenttype=2DDrawing&amp;lang=en&amp;documentid=CX90MWD2G-24P_2D_4800609000_Eng</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CX90MWD2G-24P</field>
+        <field name="Footprint">the_backrooms:CX90MWD2G-24P</field>
+        <field name="Datasheet">https://www.hirose.com/en/product/document?clcode=CL0480-0770-0-00&amp;productname=CX90MWD2G-24P&amp;series=CX&amp;documenttype=2DDrawing&amp;lang=en&amp;documentid=CX90MWD2G-24P_2D_4800609000_Eng</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND_1" type="passive"/>
+        <pin num="A2" name="SSTXP1" type="passive"/>
+        <pin num="A3" name="SSTXN1" type="passive"/>
+        <pin num="A4" name="VBUS_1" type="passive"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="DP1" type="passive"/>
+        <pin num="A7" name="DN1" type="passive"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="A9" name="VBUS_2" type="passive"/>
+        <pin num="A10" name="SSRXN2" type="passive"/>
+        <pin num="A11" name="SSRXP2" type="passive"/>
+        <pin num="A12" name="GND_2" type="passive"/>
+        <pin num="B1" name="GND_3" type="passive"/>
+        <pin num="B2" name="SSTXP2" type="passive"/>
+        <pin num="B3" name="SSTXN2" type="passive"/>
+        <pin num="B4" name="VBUS_3" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="DP2" type="passive"/>
+        <pin num="B7" name="DN2" type="passive"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+        <pin num="B9" name="VBUS_4" type="passive"/>
+        <pin num="B10" name="SSRXN1" type="passive"/>
+        <pin num="B11" name="SSRXP1" type="passive"/>
+        <pin num="B12" name="GND_4" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+        <pin num="MH3" name="MH3" type="passive"/>
+        <pin num="MH4" name="MH4" type="passive"/>
+        <pin num="MH5" name="MH5" type="passive"/>
+        <pin num="MH6" name="MH6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="the_backrooms" part="CX60-24S-UNIT">
+      <docs>https://www.mouser.de/datasheet/2/185/CX60_24S_UNIT_CL0480_0465_0_00_2DDrawing_D166698_e-1611272.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">the_backrooms:CX60-24S-UNIT</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/185/CX60_24S_UNIT_CL0480_0465_0_00_2DDrawing_D166698_e-1611272.pdf</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="input"/>
+        <pin num="A2" name="TX1+" type="input"/>
+        <pin num="A3" name="TX1-" type="input"/>
+        <pin num="A4" name="VBUS" type="input"/>
+        <pin num="A5" name="CC1" type="input"/>
+        <pin num="A6" name="D+" type="input"/>
+        <pin num="A7" name="D-" type="input"/>
+        <pin num="A8" name="SBU1" type="input"/>
+        <pin num="A9" name="VBUS" type="input"/>
+        <pin num="A10" name="RX2-" type="input"/>
+        <pin num="A11" name="RX2+" type="input"/>
+        <pin num="A12" name="GND" type="input"/>
+        <pin num="B1" name="GND" type="input"/>
+        <pin num="B2" name="TX2+" type="input"/>
+        <pin num="B3" name="TX2-" type="input"/>
+        <pin num="B4" name="VBUS" type="input"/>
+        <pin num="B5" name="CC2" type="input"/>
+        <pin num="B6" name="D+" type="input"/>
+        <pin num="B7" name="D-" type="input"/>
+        <pin num="B8" name="SBU2" type="input"/>
+        <pin num="B9" name="VBUS" type="input"/>
+        <pin num="B10" name="RX1-" type="input"/>
+        <pin num="B11" name="RX1+" type="input"/>
+        <pin num="B12" name="GND" type="input"/>
+        <pin num="GND1" name="GND" type="input"/>
+        <pin num="GND2" name="GND" type="input"/>
+        <pin num="GND3" name="GND" type="input"/>
+        <pin num="GND4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SamacSys_Parts">
+      <uri>/home/denji/Downloads/KiCad/SamacSys_Parts.kicad_sym</uri>
+    </library>
+    <library logical="the_backrooms">
+      <uri>/home/denji/.local/share/kicad/7.0/symbols/the_backrooms.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CC1">
+      <node ref="J2" pin="A5" pinfunction="CC1" pintype="input"/>
+      <node ref="J3" pin="A5" pinfunction="CC1" pintype="passive"/>
+    </net>
+    <net code="2" name="/CC2">
+      <node ref="J2" pin="B5" pinfunction="CC2" pintype="input"/>
+      <node ref="J3" pin="B5" pinfunction="CC2" pintype="passive"/>
+    </net>
+    <net code="3" name="/SBU1">
+      <node ref="J2" pin="A8" pinfunction="SBU1" pintype="input"/>
+      <node ref="J3" pin="A8" pinfunction="SBU1" pintype="passive"/>
+    </net>
+    <net code="4" name="/SBU2">
+      <node ref="J2" pin="B8" pinfunction="SBU2" pintype="input"/>
+      <node ref="J3" pin="B8" pinfunction="SBU2" pintype="passive"/>
+    </net>
+    <net code="5" name="/SSRXN1">
+      <node ref="J2" pin="B10" pinfunction="RX1-" pintype="input"/>
+      <node ref="J3" pin="B10" pinfunction="SSRXN1" pintype="passive"/>
+    </net>
+    <net code="6" name="/SSRXN2">
+      <node ref="J2" pin="A10" pinfunction="RX2-" pintype="input"/>
+      <node ref="J3" pin="A10" pinfunction="SSRXN2" pintype="passive"/>
+    </net>
+    <net code="7" name="/SSRXP1">
+      <node ref="J2" pin="B11" pinfunction="RX1+" pintype="input"/>
+      <node ref="J3" pin="B11" pinfunction="SSRXP1" pintype="passive"/>
+    </net>
+    <net code="8" name="/SSRXP2">
+      <node ref="J2" pin="A11" pinfunction="RX2+" pintype="input"/>
+      <node ref="J3" pin="A11" pinfunction="SSRXP2" pintype="passive"/>
+    </net>
+    <net code="9" name="/SSTXN1">
+      <node ref="J2" pin="A3" pinfunction="TX1-" pintype="input"/>
+      <node ref="J3" pin="A3" pinfunction="SSTXN1" pintype="passive"/>
+    </net>
+    <net code="10" name="/SSTXN2">
+      <node ref="J2" pin="B3" pinfunction="TX2-" pintype="input"/>
+      <node ref="J3" pin="B3" pinfunction="SSTXN2" pintype="passive"/>
+    </net>
+    <net code="11" name="/SSTXP1">
+      <node ref="J2" pin="A2" pinfunction="TX1+" pintype="input"/>
+      <node ref="J3" pin="A2" pinfunction="SSTXP1" pintype="passive"/>
+    </net>
+    <net code="12" name="/SSTXP2">
+      <node ref="J2" pin="B2" pinfunction="TX2+" pintype="input"/>
+      <node ref="J3" pin="B2" pinfunction="SSTXP2" pintype="passive"/>
+    </net>
+    <net code="13" name="/UP_DN">
+      <node ref="J3" pin="A7" pinfunction="DN1" pintype="passive"/>
+      <node ref="J3" pin="B7" pinfunction="DN2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/UP_DP">
+      <node ref="J3" pin="A6" pinfunction="DP1" pintype="passive"/>
+      <node ref="J3" pin="B6" pinfunction="DP2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="J2" pin="A1" pinfunction="GND" pintype="input"/>
+      <node ref="J2" pin="A12" pinfunction="GND" pintype="input"/>
+      <node ref="J2" pin="B1" pinfunction="GND" pintype="input"/>
+      <node ref="J2" pin="B12" pinfunction="GND" pintype="input"/>
+      <node ref="J2" pin="GND1" pinfunction="GND" pintype="input"/>
+      <node ref="J2" pin="GND2" pinfunction="GND" pintype="input"/>
+      <node ref="J2" pin="GND3" pinfunction="GND" pintype="input"/>
+      <node ref="J2" pin="GND4" pinfunction="GND" pintype="input"/>
+      <node ref="J3" pin="A1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J3" pin="A12" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J3" pin="B1" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J3" pin="B12" pinfunction="GND_4" pintype="passive"/>
+      <node ref="J3" pin="MH1" pinfunction="MH1" pintype="passive"/>
+      <node ref="J3" pin="MH2" pinfunction="MH2" pintype="passive"/>
+      <node ref="J3" pin="MH3" pinfunction="MH3" pintype="passive"/>
+      <node ref="J3" pin="MH4" pinfunction="MH4" pintype="passive"/>
+      <node ref="J3" pin="MH5" pinfunction="MH5" pintype="passive"/>
+      <node ref="J3" pin="MH6" pinfunction="MH6" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J4" pin="MP1" pinfunction="MP1" pintype="passive"/>
+      <node ref="J4" pin="MP2" pinfunction="MP2" pintype="passive"/>
+    </net>
+    <net code="16" name="VBUS">
+      <node ref="J2" pin="A4" pinfunction="VBUS" pintype="input"/>
+      <node ref="J2" pin="A9" pinfunction="VBUS" pintype="input"/>
+      <node ref="J2" pin="B4" pinfunction="VBUS" pintype="input"/>
+      <node ref="J2" pin="B9" pinfunction="VBUS" pintype="input"/>
+      <node ref="J3" pin="A4" pinfunction="VBUS_1" pintype="passive"/>
+      <node ref="J3" pin="A9" pinfunction="VBUS_2" pintype="passive"/>
+      <node ref="J3" pin="B4" pinfunction="VBUS_3" pintype="passive"/>
+      <node ref="J3" pin="B9" pinfunction="VBUS_4" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(J2-D+-PadA6)">
+      <node ref="J2" pin="A6" pinfunction="D+" pintype="input+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(J2-D+-PadB6)">
+      <node ref="J2" pin="B6" pinfunction="D+" pintype="input+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J2-D--PadA7)">
+      <node ref="J2" pin="A7" pinfunction="D-" pintype="input+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J2-D--PadB7)">
+      <node ref="J2" pin="B7" pinfunction="D-" pintype="input+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
