@@ -6,5 +6,10 @@
 *.d356
 *.lck
 *.gbrjob
+*.xml
+*.kicad_pro
+*.kicad_pcb
+*.kicad_sch
+stackup.png
 /fp-info-cache
 /daemon_usb2_injector-backups
